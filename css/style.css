@@ -4,7 +4,7 @@ body, #logo, #intestazione #container {
 
 #container {
     margin: auto;
-    width: 60%;
+    width: 1010px;
 }
 
 
@@ -15,7 +15,6 @@ body, #logo, #intestazione #container {
     background-image: url("../img/pattern.png");
     background-color: #4ea0ff;
 }
-
 
 #logo {
     height: 150px;
@@ -37,4 +36,16 @@ h3, h5 {
 a {
     text-decoration: none;
     color: #33b0e7;
+}
+
+
+.tim_img {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+
+
+.articolo {
+    font-size: 19px;
 }
