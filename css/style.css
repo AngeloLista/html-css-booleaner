@@ -1,0 +1,29 @@
+body, #logo, #intestazione #container {
+    margin: 0;
+}
+
+#container {
+    margin: auto;
+    width: 60%;
+}
+
+
+
+#intestazione {
+    height: 175px;
+    width: 100%;
+    background-image: url("../img/pattern.png");
+    background-color: #4ea0ff;
+}
+
+
+#logo {
+    height: 150px;
+    width: 15%;
+    padding-left: 10px;
+    padding-top: 60px;
+}
+
+h1 {
+    font-size:  50px;
+}
