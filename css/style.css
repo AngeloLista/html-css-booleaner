@@ -26,4 +26,15 @@ body, #logo, #intestazione #container {
 
 h1 {
     font-size:  50px;
+    margin-bottom: 0;
+}
+
+h3, h5 {
+    margin: 0;
+    color: #777777;
+}
+
+a {
+    text-decoration: none;
+    color: #33b0e7;
 }
