@@ -8,7 +8,7 @@ body, #logo, #intestazione #container {
 }
 
 
-
+/* Intestazione */
 #intestazione {
     height: 175px;
     width: 100%;
@@ -25,7 +25,7 @@ body, #logo, #intestazione #container {
 
 h1 {
     font-size:  50px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 h3, h5 {
@@ -48,10 +48,19 @@ a {
 
 .articolo {
     font-size: 21px;
+    margin-bottom: 30px;
 }
 
+
+/* Table */
 thead {
+    text-align: left;
     background-color: #20a9e5;
+    color: white;
+}
+
+#riga_tabella_50 {
+    width: 50%;
 }
 
 tbody {
@@ -62,13 +71,20 @@ tbody {
     background-color: white;
 }
 
+th, td {
+    font-size: 16px;
+    border: none;
+  }
+  
 
+
+/* Footer */
 .related_article {
     
     width: 300px;
     height: 200px;
     background-repeat: no-repeat;
-    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .monitor {
@@ -83,5 +99,4 @@ tbody {
     color: white;
     font-size: 19px;
     margin-left: 10px;
-    padding-top: 10px;
 }
