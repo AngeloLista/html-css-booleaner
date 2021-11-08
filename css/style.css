@@ -39,7 +39,7 @@ a {
 }
 
 
-.tim_img {
+.img {
     width: 100%;
     margin-top: 15px;
     margin-left: 0px;
@@ -47,5 +47,41 @@ a {
 
 
 .articolo {
+    font-size: 21px;
+}
+
+thead {
+    background-color: #20a9e5;
+}
+
+tbody {
+    background-color: #b1e5f2;
+}
+
+.white_row {
+    background-color: white;
+}
+
+
+.related_article {
+    
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+}
+
+.monitor {
+    background-image: url("../img/monitor.jpg");
+}
+
+.graph {
+    background-image: url("../img/graph.jpg");
+}
+
+.related_article_title {
+    color: white;
     font-size: 19px;
+    margin-left: 10px;
+    padding-top: 10px;
 }
